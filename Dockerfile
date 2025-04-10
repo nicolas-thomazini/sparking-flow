@@ -1,4 +1,4 @@
-FROM apache/airflow:2.10.5-python3.11
+FROM apache/airflow:2.10.5-python3.12
 
 USER root
 RUN apt-get update && \
@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get clean
 
 # Set JAVA_HOME environment variable
-ENV JAVA_HOME /usr/lib/jvm/java-17-openjdk-arm64
+ENV JAVA_HOME /usr/lib/jvm/java-17-openjdk-amd64
 
 USER airflow
 
