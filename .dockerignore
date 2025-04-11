@@ -1,5 +1,21 @@
-.venv
-_pycache__
-*.pyo
+# envs
+venv/
+.env/
+
+# git
 .git
+.gitignore
+
+# IDEs
+.vscode/
+.idea/
+
+# cache
+__pycache__/
 *.pyc
+
+# os
+.DS_Store
+
+# others
+*.log
