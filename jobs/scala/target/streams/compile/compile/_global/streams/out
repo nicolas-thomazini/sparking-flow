@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/home/nicolas/sparking-flow/jobs/scala/wordcount.scala:12:34: value reduceBykey is not a member of org.apache.spark.rdd.RDD[(String, Int)][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value reduceBykey'?[0m
+[0m[[0m[31merror[0m] [0m[0m                                .reduceBykey(_ + _)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
