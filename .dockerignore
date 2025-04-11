@@ -19,3 +19,8 @@ __pycache__/
 
 # others
 *.log
+
+.target
+/target
+.target/
+project/
