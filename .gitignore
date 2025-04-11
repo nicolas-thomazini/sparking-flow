@@ -18,3 +18,5 @@ __pycache__/
 *.log
 .logs
 /logs
+
+project/
