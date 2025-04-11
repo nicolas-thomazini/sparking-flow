@@ -1,2 +1,18 @@
-.venv/
-logs/
+# envs
+venv/
+.env/
+.envrc
+__pycache__/
+*.pyc
+
+# vscode
+.vscode/
+
+# pycharm
+.idea/
+
+# mac
+.DS_Store
+
+# logs
+*.log
